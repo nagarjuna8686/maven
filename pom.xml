@@ -14,6 +14,16 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
-  
   </dependencies>
+  <distributionManagement>
+        <repository>
+          <id>repoR</id>
+          <url>http://192.168.33.33:8181/nexus/content/repositories/repoR/</url>
+        </repository>
+       <snapshotRepository>
+      <id>repoS</id>
+      <url>http://192.168.33.33:8181/nexus/content/repositories/repoS/</url>
+    </snapshotRepository>
+  </distributionManagement>
+
 </project>
